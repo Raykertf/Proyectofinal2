@@ -1,0 +1,30 @@
+/* src/components/Sidebar.css */
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: -250px; /* Ocultar el menú fuera de la vista */
+    width: 250px;
+    height: 100%;
+    background-color: #fff;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+    transition: left 0.3s ease; /* Transición suave */
+  }
+  
+  .sidebar.open {
+    left: 0; /* Mostrar el menú */
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    padding: 15px;
+    cursor: pointer;
+  }
+
+  .sidebar h2 {
+    padding-left: 10px;
+  }
+  

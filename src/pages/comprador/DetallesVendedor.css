@@ -1,0 +1,105 @@
+
+.explore-container {
+    color: #333;
+  }
+  
+  /* Barra superior */
+  .producto-top-bar {
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #e67e22;
+    color: white;
+    padding: 10px 20px;
+    position: fixed;
+    z-index: 1000;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+  }
+  
+  .producto-title {
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 
+        -1px -1px 0px #000;  /* Borde negro */
+  }
+  
+  .producto-menu-icon {
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  .producto-titulo-header{
+    display: flex;
+    color: white;
+    gap: 15px;
+    align-items: center;
+  }
+  .producto-top-bar-icons {
+    display: flex;
+    color: white;
+    gap: 15px;
+    align-items: center;
+  }
+  
+  .producto-top-bar-icons .svg-inline--fa {
+    color: white; /* Cambia el color de los iconos a blanco */
+    font-size: 24px; /* Ajusta el tamaño de los iconos */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el icono */
+  }
+
+  .producto-fa, .fas {
+    color: white;       /* Define el color de los iconos */
+    font-size: px;    /* Ajusta el tamaño de los iconos */
+    cursor: pointer;    
+  }
+
+  .producto-title2 {
+    margin-top: 100px;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 
+        -1px -1px 0px #000;  /* Borde negro */
+  }
+  /* Contenido principal */
+  .content {
+    padding: 20px;
+    margin-top: 100px; /* Para evitar que se superponga con la barra superior */
+  }
+  
+  .producto-list {
+    display: flex;
+    flex-wrap: wrap; /* Permite que las tarjetas se envuelvan a la siguiente línea */
+    justify-content: center; /* Centra las tarjetas horizontalmente */
+}
+
+.producto-card {
+    border: 1px solid #ccc; /* Borde opcional para las tarjetas */
+    border-radius: 8px; /* Bordes redondeados */
+    margin: 10px; /* Espaciado entre tarjetas */
+    padding: 10px; /* Espaciado interno */
+    width: 200px; /* Ancho fijo para las tarjetas */
+    text-align: center; /* Centra el texto */
+}
+
+.producto-image {
+    width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    max-height: 150px; /* Altura máxima para la imagen */
+    object-fit: contain; /* Cubre el área del contenedor sin distorsionar la imagen */
+}
+  
+.success-message {
+    background-color: #d4edda;
+    color: #155724;
+    padding: 10px;
+    border: 1px solid #c3e6cb;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: opacity 0.5s ease;
+  }
+  

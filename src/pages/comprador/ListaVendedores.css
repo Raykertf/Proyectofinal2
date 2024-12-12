@@ -1,0 +1,142 @@
+/* src/pages/Explore.css */
+
+.explore-container {
+    color: #333;
+  }
+  
+  /* Barra superior */
+  .top-bar {
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #e67e22;
+    color: white;
+    padding: 10px 20px;
+    position: fixed;
+    z-index: 1000;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+  }
+  
+  .title {
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 
+        -1px -1px 0px #000;  /* Borde negro */
+  }
+  
+  .menu-icon {
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  .titulo-header{
+    display: flex;
+    color: white;
+    gap: 15px;
+    align-items: center;
+  }
+  .top-bar-icons {
+    display: flex;
+    color: white;
+    gap: 15px;
+    align-items: center;
+  }
+  
+  .top-bar-icons .svg-inline--fa {
+    color: white; /* Cambia el color de los iconos a blanco */
+    font-size: 24px; /* Ajusta el tamaño de los iconos */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el icono */
+  }
+
+  .fa, .fas {
+    color: white;       /* Define el color de los iconos */
+    font-size: px;    /* Ajusta el tamaño de los iconos */
+    cursor: pointer;    
+  }
+
+  /* Barra lateral */
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    background-color: #333;
+    color: white;
+    padding-top: 60px;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+    z-index: 1000;
+  }
+  
+  .logo-image {
+    max-width: 100%; /* Para que la imagen no se desborde */
+    height: auto; /* Mantener la proporción de la imagen */
+    width: 80px; /* Ajustar el ancho de la imagen */
+  }
+
+  .sidebar.open {
+    transform: translateX(0);
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    padding: 10px 20px;
+  }
+  
+  .sidebar ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .sidebar ul li:hover {
+    background-color: #444;
+  }
+  
+  /* Contenido principal */
+  .content {
+    padding: 20px;
+    margin-top: 60px; /* Para evitar que se superponga con la barra superior */
+  }
+  
+  .vendedor-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+  }
+  
+  .vendedor-card {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 200px; /* Ancho de las tarjetas */
+    text-align: center;
+    
+  }
+  
+  .vendedor-image {
+    width: 100%; /* Hace que la imagen ocupe todo el ancho de la tarjeta */
+    height: 120px; /* Altura fija para las imágenes */
+    object-fit: contain; /* Cubre el área del contenedor sin distorsionar */
+    object-position: center; /* Centra la imagen dentro del contenedor */
+  }
+
+  .vendedor-description {
+    padding: 10px; /* Espaciado alrededor del texto */
+    font-size: 14px; /* Tamaño de la fuente */
+    color: #555; /* Color gris para el texto */
+  }
+  
+  

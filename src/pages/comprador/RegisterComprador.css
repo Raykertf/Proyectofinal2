@@ -1,0 +1,81 @@
+/* Fondo y diseño del contenedor */
+.register-container {
+    background: linear-gradient(135deg, rgba(255, 165, 0, 0.8), rgba(255, 255, 255, 0.9));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    padding: 20px;
+  }
+  
+  .register-box {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  h2 {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  input[type="email"],
+  input[type="tel"] {
+    background-color: #f9f9f9;
+  }
+  
+  button {
+    width: 100%;
+    padding: 12px;
+    background-color: #FFA500; /* Naranja */
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #FF8C00; /* Naranja oscuro */
+  }
+  
+  p {
+    font-size: 14px;
+    color: #888;
+  }
+  
+  input:focus, button:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(255, 165, 0, 0.8);
+  }
+  
+  input::placeholder {
+    color: #aaa;
+  }
+  

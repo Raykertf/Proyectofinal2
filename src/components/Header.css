@@ -1,0 +1,54 @@
+/* Barra superior */
+.top-bar {
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #e67e22;
+    color: white;
+    padding: 10px 20px;
+    position: fixed;
+    z-index: 1000;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+  }
+  
+  .title {
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 
+        -1px -1px 0px #000;  /* Borde negro */
+  }
+  
+  .menu-icon {
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  .titulo-header{
+    display: flex;
+    color: white;
+    gap: 15px;
+    align-items: center;
+  }
+  .top-bar-icons {
+    display: flex;
+    color: white;
+    gap: 15px;
+    align-items: center;
+  }
+  
+  .top-bar-icons .svg-inline--fa {
+    color: white; /* Cambia el color de los iconos a blanco */
+    font-size: 24px; /* Ajusta el tamaño de los iconos */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el icono */
+  }
+
+  .fa, .fas {
+    color: white;       /* Define el color de los iconos */
+    font-size: px;    /* Ajusta el tamaño de los iconos */
+    cursor: pointer;    
+  }
